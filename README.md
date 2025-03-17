@@ -1,9 +1,35 @@
-# DataStor Case Study
+# DataStor Case Study: Quality Control Analysis
 
-This case is about analyzing the quality control process at DataStor, a company that produces hard drives. The focus is on identifying potential quality problems using statistical methods. The company uses a PDQ test score to assess the quality of their drives, and they reject any drive with a score below 6.2. The analysis starts by reviewing the distribution of various data points, such as hours worked by production employees, the number of drives produced, and the average PDQ score.
+![GitHub](https://img.shields.io/badge/Analysis-Statistical-blue)
+![GitHub](https://img.shields.io/badge/Tools-Python-orange)
+![GitHub](https://img.shields.io/badge/License-MIT-green)
 
-The initial analysis shows that the data doesn't indicate any major issues, and the distribution of scores appears normal. However, when examining the probability of a drive being defective (score below 6.2), the calculations suggest that around 4 out of every 1,000 drives will fail. This leads to an investigation into the rejection of shipments, revealing that DataStor is rejecting shipments at a much higher rate than expected, indicating a potential quality issue.
+This case study focuses on analyzing the quality control process at **DataStor**, a company that manufactures hard drives. The goal is to identify potential quality issues in the production process using statistical methods. The company uses a **PDQ test score** to assess the quality of their drives, rejecting any drive with a score below **6.2**. The analysis explores the distribution of production data, identifies anomalies, and investigates the root cause of higher-than-expected shipment rejections.
 
-Further analysis includes examining control charts, which show that the process may indeed be out of control. The analysis also identifies that the problem is particularly pronounced in Shift 3, where the quality of the drives produced is worse than in Shift 1 and Shift 2.
+---
 
-In summary, the case is about using statistical analysis to identify quality issues in the production process, and while the problem is clear, the exact source of the issue remains unclear, though it seems related to the specific shift when the drives are produced.
+## Table of Contents
+- [Overview](#overview)
+- [Key Metrics](#key-metrics)
+- [Initial Analysis](#initial-analysis)
+- [Quality Control Issues](#quality-control-issues)
+- [Shift-Based Analysis](#shift-based-analysis)
+- [Control Charts](#control-charts)
+- [Conclusion](#conclusion)
+- [License](#license)
+
+---
+
+## Overview
+DataStor produces hard drives and uses a **PDQ test score** to evaluate the quality of each drive. Drives with a PDQ score below **6.2** are rejected. The analysis begins by examining the distribution of:
+- **Hours worked** by production employees
+- **Number of drives produced**
+- **Average PDQ scores**
+
+The initial analysis suggests that the data distribution appears normal, and no major issues are evident. However, further investigation reveals a discrepancy between the expected and actual rejection rates, indicating potential quality control problems.
+
+---
+
+## Key Metrics
+- **PDQ Score Threshold**: 6.2 (drives below this score are rejected)
+- **Expected Defect

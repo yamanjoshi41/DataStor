@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/badge/Analysis-Statistical-blue)
 ![GitHub](https://img.shields.io/badge/Tools-Python-orange)
-![GitHub](https://img.shields.io/badge/License-MIT-green)
+
 
 This case study focuses on analyzing the quality control process at **DataStor**, a company that manufactures hard drives. The goal is to identify potential quality issues in the production process using statistical methods. The company uses a **PDQ test score** to assess the quality of their drives, rejecting any drive with a score below **6.2**. The analysis explores the distribution of production data, identifies anomalies, and investigates the root cause of higher-than-expected shipment rejections.
 
@@ -11,12 +11,6 @@ This case study focuses on analyzing the quality control process at **DataStor**
 ## Table of Contents
 - [Overview](#overview)
 - [Key Metrics](#key-metrics)
-- [Initial Analysis](#initial-analysis)
-- [Quality Control Issues](#quality-control-issues)
-- [Shift-Based Analysis](#shift-based-analysis)
-- [Control Charts](#control-charts)
-- [Conclusion](#conclusion)
-- [License](#license)
 
 ---
 
